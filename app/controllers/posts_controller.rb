@@ -1,4 +1,5 @@
 class PostsController < ApplicationController
+  
   def index
     @posts = Post.all
   end
@@ -12,4 +13,5 @@ class PostsController < ApplicationController
   end
 
   # add create method here
+  
 end
